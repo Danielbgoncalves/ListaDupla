@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX 100 // De estimação já s2
+#define MAX 100 
 
 typedef struct aluno{
     int mat;
     char nome[30];
     float n1;
 }Aluno;
-
+  
 typedef struct lista Lista;
 
 Lista *criar();
